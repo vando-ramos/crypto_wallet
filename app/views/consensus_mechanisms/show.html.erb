@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @consensus_mechanism.description %>
+</p>
+
+<p>
+  <strong>Acronym:</strong>
+  <%= @consensus_mechanism.acronym %>
+</p>
+
+<%= link_to 'Edit', edit_consensus_mechanism_path(@consensus_mechanism) %> |
+<%= link_to 'Back', consensus_mechanisms_path %>

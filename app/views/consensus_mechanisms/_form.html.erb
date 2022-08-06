@@ -1,0 +1,27 @@
+<%= form_with(model: consensus_mechanism, local: true) do |form| %>
+  <% if consensus_mechanism.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(consensus_mechanism.errors.count, "error") %> prohibited this consensus_mechanism from being saved:</h2>
+
+      <ul>
+      <% consensus_mechanism.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :acronym %>
+    <%= form.text_field :acronym %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

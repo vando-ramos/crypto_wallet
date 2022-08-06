@@ -1,0 +1,2 @@
+module ConsensusMechanismsHelper
+end
