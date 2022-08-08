@@ -1,0 +1,11 @@
+pt-BR:
+  hello: "Olá mundo"
+  links:
+    show: 'Mostrar'
+    edit: 'Editar'
+    destroy: 'Apagar'
+    coin_registration: 'Registro de Moedas'
+    consensus_mechanism: 'Mecanismo de consenso'
+    new_coin: 'Nova moeda'
+    new_consensus_mechanism: 'Nova mecanismo de consenso'
+    home: 'Início'
