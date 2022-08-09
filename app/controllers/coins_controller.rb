@@ -1,5 +1,5 @@
 class CoinsController < ApplicationController
-  layout 'registration'
+  # layout 'registration'
   before_action :set_coin, only: %i[ show edit update destroy ]
   before_action :set_consensus_mechanism_options, only: %i[ new create edit update ]
 
