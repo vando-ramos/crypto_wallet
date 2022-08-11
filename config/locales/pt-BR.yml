@@ -1,11 +1,15 @@
 pt-BR:
-  hello: "Olá mundo"
-  links:
+  welcome: 'Bem Vindo'
+  text1: 'Essa é a Crypto Wallet, uma aplicação para cadastro de criptomoedas.'
+  text2: 'Para começar, selecione uma das opções abaixo.'
+  english: 'Inglês'
+  portuguese: 'Português'
+  links:    
     show: 'Mostrar'
     edit: 'Editar'
     destroy: 'Apagar'
     coin_registration: 'Registro de Moedas'
-    consensus_mechanism: 'Mecanismo de consenso'
-    new_coin: 'Nova moeda'
-    new_consensus_mechanism: 'Nova mecanismo de consenso'
+    consensus_mechanism: 'Mecanismo de Consenso'
+    new_coin: 'Nova Moeda'
+    new_consensus_mechanism: 'Novo Mecanismo de Consenso'
     home: 'Início'

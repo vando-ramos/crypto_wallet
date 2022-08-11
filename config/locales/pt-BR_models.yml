@@ -1,17 +1,17 @@
 'pt-BR':
   activerecord:
     models:
-      coin: Moeda
-      consensus_mechanism: Mecanismo de consenso
+      coin: Moeda      
+      consensus_mechanism: Mecanismo de Consenso
 
     attributes:
       coin:
         id: ID
         description: Nome
         acronym: Sigla
-        url_image: URL da imagem
-        consensus_mechanism: Mecanismo de consenso
-        consensus_mechanism_id: Mecanismo de consenso
+        url_image: URL da Imagem
+        consensus_mechanism: Mecanismo de Consenso
+        consensus_mechanism_id: Mecanismo de Consenso
         updated_at: Atualizado em
         created_at: Criado em        
       consensus_mechanism:

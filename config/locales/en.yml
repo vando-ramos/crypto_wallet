@@ -30,8 +30,12 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
-  links:
+  welcome: 'Welcome'
+  text1: 'This is Crypto Wallet, an application to register cryptocurrencies.'
+  text2: 'To get started select one of the options below.'
+  english: 'English'
+  portuguese: 'Portuguese'
+  links:    
     show: 'Show'
     edit: 'Edit'
     destroy: 'Destroy'
