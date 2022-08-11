@@ -1,27 +1,8 @@
-<p> 
-  <%= link_to 'Português', root_path(locale: 'pt-BR') %> 
-</p>
-
-<p> 
-  <%= link_to 'English', root_path(locale: 'en') %> 
-</p>
-
-<h1>Welcome#index</h1>
-
-<p>Crypto Wallet</p>
-
-<p> <%= l(Date.today) %> </p>
-
-<p> Local language: <strong> <%= I18n.locale %> </strong> </p>
-
-<p> <%= t('hello') %> </p>
-
-<%= render 'menu' %>
-
-<p>
-  <strong> <%= Rails.env %> </strong> environment
-</p>
-
-<p>
-  Variável de instância com query params => <strong> <%= @name %> </strong>
-</p>
+<div class="container-fluid bg-light p-5">
+	  <h1 class="display-4">Welcome</h1>
+	  <p class="lead">This is Crypto Wallet, an application to register cryptocurrencies</p>
+	  <hr class="my-4">
+	  <p>To get started select one of the options below</p>
+	  
+    <%= render 'menu' %>
+</div>
