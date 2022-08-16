@@ -4,6 +4,7 @@ pt-BR:
   text2: 'Para começar, selecione uma das opções abaixo.'
   english: 'Inglês'
   portuguese: 'Português'
+  confirm: 'Tem Certeza?'
   links:    
     show: 'Mostrar'
     edit: 'Editar'

@@ -11,28 +11,29 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :description %>
-    <%= form.text_field :description %>
-  </div>
+    <%= form.text_field :description, class:"form-control" %>
+  </div>    
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :acronym %>
-    <%= form.text_field :acronym %>
+    <%= form.text_field :acronym, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :url_image %>
-    <%= form.text_field :url_image %>
-    <td> <%#= image_tag coin.url_image, size: '25' %> </td>
+    <%= form.text_field :url_image, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="mb-3">
     <%= form.label :consensus_mechanism_id %>
-    <%= form.select('consensus_mechanism_id', @consensus_mechanism_options, { include_blank: "Select" }) %>
+    <%= form.select('consensus_mechanism_id', @consensus_mechanism_options, { include_blank: "Select" }, class:"form-control") %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit nil, class:"btn btn-outline-dark" %>
   </div>
 <% end %>
+
+</br>

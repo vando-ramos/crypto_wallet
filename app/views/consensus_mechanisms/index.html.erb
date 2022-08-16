@@ -16,9 +16,9 @@
       <tr>
         <td><%= consensus_mechanism.description %></td>
         <td><%= consensus_mechanism.acronym %></td>
-        <td><%= link_to t('links.show'), consensus_mechanism %></td>
-        <td><%= link_to t('links.edit'), edit_consensus_mechanism_path(consensus_mechanism) %></td>
-        <td><%= link_to t('links.destroy'), consensus_mechanism, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to t('links.show'), consensus_mechanism, class:"btn btn-outline-dark" %></td>
+        <td><%= link_to t('links.edit'), edit_consensus_mechanism_path(consensus_mechanism), class:"btn btn-outline-dark" %></td>
+        <td><%= link_to t('links.destroy'), consensus_mechanism, method: :delete, data: { confirm: t('confirm') }, class:"btn btn-outline-dark" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,6 +26,6 @@
 
 <br>
 
-<%= link_to t('links.new_consensus_mechanism'), new_consensus_mechanism_path %>
+<%= link_to t('links.new_consensus_mechanism'), new_consensus_mechanism_path, class:"btn btn-dark" %>
 
-<p> <%= link_to t('links.home'), welcome_index_path %> </p>
+<p><%= link_to t('links.home'), welcome_index_path %></p>
